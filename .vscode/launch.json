@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "name": "test1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_test1",
+            "program": "${workspaceFolder}/test1/bin/Debug/net6.0/test1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/test1",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+    ]
+}
